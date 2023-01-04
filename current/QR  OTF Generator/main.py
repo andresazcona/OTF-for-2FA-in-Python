@@ -1,3 +1,5 @@
+#QR OTF Generator By: https://github.com/andresazcona
+
 import time
 import pyotp
 import qrcode

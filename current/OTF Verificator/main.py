@@ -1,3 +1,5 @@
+#OTF Verificator By: https://github.com/andresazcona
+
 import time
 import pyotp
 import qrcode
@@ -8,3 +10,4 @@ totp = pyotp.TOTP(key)
 
 while True:
     print(totp.verify(input("Enter Code:")))
+
